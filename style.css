@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Pixelify';
+    src: url('./fonts/PixelifySans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pixelify', cursive;
+    overflow: hidden;
+}
+
+.container {
+    /* background-color: #84a3a4; */
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+#sailor.cats {
+    width: 500px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#yes-btn {
+    color: white;
+    background-color: #47b047;
+}
+
+#no-btn {
+    color: white;
+    background-color: #ed4444;
+}
