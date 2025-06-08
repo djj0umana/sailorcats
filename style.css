@@ -14,6 +14,7 @@ body {
 }
 
 .container {
+    /* background-color: #84a3a4; */
     max-width: 800px;
     margin: 60px auto;
 }
@@ -21,6 +22,7 @@ body {
 #sailor-cats {
     width: 540px;
     height: 405px;
+
 }
 
 h1 {
